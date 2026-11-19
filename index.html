@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Selamat Ulang Tahun, Ulan 🌸</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Dancing+Script:wght@500;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="load" class="screen"><div class="pulse glow">🌸</div><div class="cap">Menyiapkan sesuatu yang spesial untukmu…</div></div>
+
+<div id="lockS" class="screen hidden">
+  <div class="lock" id="lockBox">
+    <div style="font-size:22px">🌸</div>
+    <h1 class="serif">Untuk Ulan, Cintaku</h1>
+    <div class="sub">Masukkan kode rahasia kita 🌸</div>
+    <div class="dots" id="dots"></div>
+    <div class="pad" id="pad"></div>
+    <div class="err" id="err"></div>
+  </div>
+</div>
+
+<div id="giftS" class="screen hidden"><div class="cap">Ketuk kotak hadiah untuk membukanya 🎁</div><button id="gift" aria-label="Buka hadiah">🎁</button></div>
+<div id="burst"></div>
+<div id="bgf"></div>
+
+<main id="dash" class="hidden">
+  <section class="hero">
+    <div class="tag">Hari spesialmu</div>
+    <h1>Happy <em>Birthday</em> <span id="nm"></span></h1>
+    <div class="date" id="dt"></div>
+    <div class="hint">Ketuk kue untuk meniupnya! 🎂</div>
+    <svg id="cake" viewBox="0 0 170 190" aria-label="Kue ulang tahun">
+      <g class="fl0">
+        <g class="flame"><ellipse cx="55" cy="22" rx="5" ry="9" fill="#ffd36b"/></g>
+        <g class="flame" style="animation-delay:.15s"><ellipse cx="85" cy="18" rx="5" ry="9" fill="#ffd36b"/></g>
+        <g class="flame" style="animation-delay:.3s"><ellipse cx="115" cy="22" rx="5" ry="9" fill="#ffd36b"/></g>
+      </g>
+      <rect x="51" y="32" width="8" height="34" rx="2" fill="#8ec5ff"/><rect x="81" y="28" width="8" height="38" rx="2" fill="#f7a8c8"/><rect x="111" y="32" width="8" height="34" rx="2" fill="#ffe08a"/>
+      <rect x="35" y="64" width="100" height="34" rx="10" fill="#ffd3e3"/><rect x="35" y="64" width="100" height="10" rx="6" fill="#fff"/>
+      <rect x="20" y="98" width="130" height="38" rx="10" fill="#f7a8c8"/><rect x="20" y="98" width="130" height="10" rx="6" fill="#fff"/>
+      <rect x="6" y="136" width="158" height="40" rx="12" fill="#f3c9d8"/><rect x="6" y="136" width="158" height="10" rx="6" fill="#fff"/>
+      <ellipse cx="85" cy="180" rx="82" ry="7" fill="#f0d5de"/>
+    </svg>
+    <div class="msg" id="wish"></div>
+  </section>
+
+  <section>
+    <div class="letter" id="letter"></div>
+  </section>
+
+  <section>
+    <div class="tag">Hadiah pertamaku</div>
+    <h2>Digital Bouquet</h2>
+    <p class="sub">Setiap bunga menyimpan pesan kecil untukmu</p>
+    <div class="bq" id="bq">
+      <svg viewBox="0 0 260 260" fill="none" stroke="#9ec27a" stroke-width="2.5" stroke-linecap="round"><path d="M130 200 C110 150 70 120 50 80"/><path d="M130 200 C120 150 105 110 100 60"/><path d="M130 200 V40"/><path d="M130 200 C140 150 155 110 160 60"/><path d="M130 200 C150 150 190 120 210 80"/><path d="M95 200h70l-8 50H103z" fill="#f7a8c8" stroke="none"/></svg>
+    </div>
+    <div class="q" id="q">Ketuk salah satu bunga ✨</div>
+  </section>
+
+  <section>
+    <div class="tag">Momen kita</div>
+    <h2>Galeri Kenangan</h2>
+    <p class="sub">Ketuk untuk mengungkap</p>
+    <div class="grid" id="grid"></div>
+  </section>
+
+  <section>
+    <div class="tag">Cerita kita</div>
+    <h2>Jurnal Perjalanan Cinta Kita</h2>
+    <p class="sub">Bagaimana takdir mempertemukan kita dan bertumbuh bersama</p>
+    <div class="tl" id="tl"></div>
+  </section>
+
+  <section>
+    <h2>Our Playlist</h2>
+    <p class="sub">Pilih lagu yang ingin kamu dengarkan</p>
+    <div class="pl">
+      <div class="tag" style="color:var(--mut)">Now playing</div>
+      <div class="vinyl" id="vin"></div>
+      <div class="serif" id="tt" style="font-size:20px"></div><div class="sub" id="ta" style="color:var(--mut)"></div>
+      <div class="bar"><i id="pg"></i></div>
+      <div class="ctl"><button id="pv">⏮</button><button class="pp" id="pp">▶</button><button id="nx">⏭</button></div>
+      <div id="trs" style="margin-top:14px"></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="tag">Dari hatiku untukmu</div>
+    <h2>Reasons I’m Grateful To Know You</h2>
+    <p class="sub">Kocok toples dan ambil sebuah catatan 📝</p>
+    <div class="jar" id="jar"><span>📝📝📝📝📝</span></div>
+    <button class="btn" id="shake">📝 Kocok toplesnya</button>
+    <div class="note hidden" id="note"></div>
+  </section>
+
+  <div class="fin" id="fin"></div>
+</main>
+<button id="mb" class="hidden" aria-label="Musik">♫</button>
+
+<script src="script.js"></script>
+</body>
+</html>
