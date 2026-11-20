@@ -1,8 +1,8 @@
 /* ====== UBAH DI SINI ====== */
 const C={
-  name:'Ulan', from:'Topan', pass:'120407',
-  date:'12 APRIL 2007 · HARI PALING SPESIAL',
-  wish:'Happy Birthday! Ulan yang paling istimewa 🌸',
+  name:'Wulan', from:'Topan', pass:'120408',
+  date:'12 APRIL 2008 · HARI PALING SPESIAL',
+  wish:'Happy Birthday! Wulan yang paling istimewa 🌸',
   letter:'Di hari ulang tahunmu ini, aku berharap semua mimpimu terwujud, semua doamu dikabulkan, dan semua kebahagiaanmu berlipat ganda. Kamu layak mendapatkan semua hal indah yang ditawarkan dunia ini.',
   bouquet:['Kamu secantik bunga tulip di musim semi, segar dan penuh harapan baru.','Kamu seperti kembang sepatu yang mekar penuh — selalu cerah, selalu memikat.','Kamu hangat seperti bunga matahari yang membuat hariku terang.','Kamu manis dan lembut, seperti mawar yang kupilih sendiri.','Kamu istimewa, dan aku bersyukur bisa mengenalmu.'],
   /* foto: isi src dengan nama file/URL fotomu, contoh 'foto1.jpg' */
@@ -19,7 +19,7 @@ const C={
          ['💗','Hari Itu','Keberanian untuk Bilang Iya','Tulis kisahmu sendiri di sini.'],
          ['🌍','Sampai Sekarang','Tumbuh Bersama','Tulis kisahmu sendiri di sini.']],
   /* lagu: isi src dengan file mp3 kalau mau benar-benar bunyi */
-  songs:[{t:'Bercinta Lewat Kata',a:' Donne Maula',e:'💗',src:'assets/lagu8.mp4'}, {t:'All I Ever Need',a:' Austin Mahone',e:'💗',src:'assets/lagu7.mp4'}, {t:' Just You',a:'Teddy Adhitya',e:'💗',src:'assets/lagu4.mp4'}, {t:'Perfect',a:'Ed Sheeran.',e:'💗',src:'assets/lagu5.mp4'}, {t:'Shape Of My Heart',a:'Backstreet Boys',e:'💗',src:'assets/lagu3.mpeg'},{t:'Just the Way You Are',a:'Bruno Mars',e:'💗',src:'assets/lagu6.mp4'}],
+  songs:[{t:'Bercinta Lewat Kata',a:' Donne Maula',e:'💗',src:'assets/lagu8.mp4'}, {t:'All I Ever Need',a:' Austin Mahone',e:'💗',src:'assets/allEverNed.mpeg'}, {t:' Just You',a:'Teddy Adhitya',e:'💗',src:'assets/justyou.mp4'}, {t:'Perfect',a:'Ed Sheeran.',e:'💗',src:'assets/perfect.mpeg'}, {t:'Shape Of My Heart',a:'Backstreet Boys',e:'💗',src:'assets/lagu3.mpeg'},{t:'Just the Way You Are',a:'Bruno Mars',e:'💗',src:'assets/lagu6.mp4'}],
   notes:['Terima kasih telah menjadi pendengar terbaik di setiap malam panjang kita.','Terima kasih telah mempercayaiku dan berjalan di sampingku.','Terima kasih untuk tawa yang membuat hariku ringan.','Terima kasih telah sabar menghadapiku.','Terima kasih untuk setiap pelukan yang terasa seperti rumah.','Terima kasih telah menjadi dirimu sendiri.','Terima kasih untuk semangat yang selalu kamu berikan.','Terima kasih karena kamu ada.'],
   final:'Dengan segenap cintaku.'
 };
