@@ -8,18 +8,18 @@ const C={
   /* foto: isi src dengan nama file/URL fotomu, contoh 'foto1.jpg' */
   photos:[
     {t:'Pesona yang Memukau',q:'Seseorang membuat waktu terasa berhenti sejenak.',src:'assets/foto1.png'},
-    {t:'Saat di Pantai',q:'Hari terbaik selalu dimulai bersamamu.',src:'assets/foto2.png'},
+    {t:'wajah lembutnya',q:'Hari terbaik selalu dimulai bersamamu.',src:'assets/foto2.png'},
     {t:'Gantung Tanpa Tara',q:'Kebahagiaan ada di tempat sederhana.',src:'assets/foto3.png'},
     {t:'Aura Hangat Mu',q:'Kebahagiaanmu membuat sejuk di sekitarmu.',src:'assets/foto4.png'},
     {t:'Penuh Karaktermu',q:'Setiap detail darimu menceritakan kisah yang indah.',src:'assets/foto5.png'},
-    {t:'Tenang dan Damai',q:'Bersamamu, aku menemukan ketenangan.',src:'assets/foto6.png'}
+    {t:'Tenang dan Damai',q:'Bersamamu, aku menemukan ketenangan.',src:'assets/foto7.png'}
   ],
   story:[['✨','Titik Awal','Pertemuan yang Tak Pernah Direncanakan','Semesta mempertemukan kita begitu saja, hingga waktu terasa berjalan lambat dan menumbuhkan rasa penasaran.'],
          ['💬','Malam-Malam Panjang','Percakapan yang Tak Pernah Terasa Cukup','Obrolan intens sampai larut malam yang membuatku selalu menunggu notifikasimu.'],
          ['💗','Hari Itu','Keberanian untuk Bilang Iya','Tulis kisahmu sendiri di sini.'],
          ['🌍','Sampai Sekarang','Tumbuh Bersama','Tulis kisahmu sendiri di sini.']],
   /* lagu: isi src dengan file mp3 kalau mau benar-benar bunyi */
-  songs:[{t:'Kitakan Lewati Berdua',a:'Artis',e:'💗',src:'assets/lagu1.mpeg'},{t:'Masa Ini, Dan Masa Indah Lainya',a:'Artis',e:'🌸',src:'assets/lagu2.mpeg'},{t:'Shape Of My Heart',a:'Artis',e:'🌷',src:'assets/lagu3.mpeg'}],
+  songs:[{t:'Bercinta Lewat Kata',a:' Donne Maula',e:'💗',src:'assets/lagu8.mp4'}, {t:'All I Ever Need',a:' Austin Mahone',e:'💗',src:'assets/lagu7.mp4'}, {t:' Just You',a:'Teddy Adhitya',e:'💗',src:'assets/lagu4.mp4'}, {t:'Perfect',a:'Ed Sheeran.',e:'💗',src:'assets/lagu5.mp4'}, {t:'Shape Of My Heart',a:'Backstreet Boys',e:'💗',src:'assets/lagu3.mpeg'},{t:'Just the Way You Are',a:'Bruno Mars',e:'💗',src:'assets/lagu6.mp4'}],
   notes:['Terima kasih telah menjadi pendengar terbaik di setiap malam panjang kita.','Terima kasih telah mempercayaiku dan berjalan di sampingku.','Terima kasih untuk tawa yang membuat hariku ringan.','Terima kasih telah sabar menghadapiku.','Terima kasih untuk setiap pelukan yang terasa seperti rumah.','Terima kasih telah menjadi dirimu sendiri.','Terima kasih untuk semangat yang selalu kamu berikan.','Terima kasih karena kamu ada.'],
   final:'Dengan segenap cintaku.'
 };
