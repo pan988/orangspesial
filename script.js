@@ -1,18 +1,18 @@
 /* ====== UBAH DI SINI ====== */
 const C={
-  name:'Ulan', from:'Topan', pass:'123456',
-  date:'TANGGAL ULANG TAHUN · HARI PALING SPESIAL',
+  name:'Ulan', from:'Topan', pass:'120407',
+  date:'12 APRIL 2007 · HARI PALING SPESIAL',
   wish:'Happy Birthday! Ulan yang paling istimewa 🌸',
   letter:'Di hari ulang tahunmu ini, aku berharap semua mimpimu terwujud, semua doamu dikabulkan, dan semua kebahagiaanmu berlipat ganda. Kamu layak mendapatkan semua hal indah yang ditawarkan dunia ini.',
   bouquet:['Kamu secantik bunga tulip di musim semi, segar dan penuh harapan baru.','Kamu seperti kembang sepatu yang mekar penuh — selalu cerah, selalu memikat.','Kamu hangat seperti bunga matahari yang membuat hariku terang.','Kamu manis dan lembut, seperti mawar yang kupilih sendiri.','Kamu istimewa, dan aku bersyukur bisa mengenalmu.'],
   /* foto: isi src dengan nama file/URL fotomu, contoh 'foto1.jpg' */
   photos:[
-    {t:'Pesona yang Memukau',q:'Seseorang membuat waktu terasa berhenti sejenak.',src:'assets/foto1.jpeg'},
-    {t:'Saat di Pantai',q:'Hari terbaik selalu dimulai bersamamu.',src:''},
-    {t:'Gantung Tanpa Tara',q:'Kebahagiaan ada di tempat sederhana.',src:''},
-    {t:'Aura Hangat Mu',q:'Kebahagiaanmu membuat sejuk di sekitarmu.',src:''},
-    {t:'Penuh Karaktermu',q:'Setiap detail darimu menceritakan kisah yang indah.',src:''},
-    {t:'Tenang dan Damai',q:'Bersamamu, aku menemukan ketenangan.',src:''}
+    {t:'Pesona yang Memukau',q:'Seseorang membuat waktu terasa berhenti sejenak.',src:'assets/foto1.png'},
+    {t:'Saat di Pantai',q:'Hari terbaik selalu dimulai bersamamu.',src:'assets/foto2.png'},
+    {t:'Gantung Tanpa Tara',q:'Kebahagiaan ada di tempat sederhana.',src:'assets/foto3.png'},
+    {t:'Aura Hangat Mu',q:'Kebahagiaanmu membuat sejuk di sekitarmu.',src:'assets/foto4.png'},
+    {t:'Penuh Karaktermu',q:'Setiap detail darimu menceritakan kisah yang indah.',src:'assets/foto5.png'},
+    {t:'Tenang dan Damai',q:'Bersamamu, aku menemukan ketenangan.',src:'assets/foto6.png'}
   ],
   story:[['✨','Titik Awal','Pertemuan yang Tak Pernah Direncanakan','Semesta mempertemukan kita begitu saja, hingga waktu terasa berjalan lambat dan menumbuhkan rasa penasaran.'],
          ['💬','Malam-Malam Panjang','Percakapan yang Tak Pernah Terasa Cukup','Obrolan intens sampai larut malam yang membuatku selalu menunggu notifikasimu.'],
@@ -76,7 +76,7 @@ function confetti(){
 }
 
 /* bouquet */
-const pos=[[30,58],[80,38],[110,20],[150,38],[190,58]],em=['🌷','🌻','🌸','🌺','🌹'];
+const pos=[[30,58],[80,38],[110,20],[150,38],[190,58]],em=['🌷','🌺','🌻','🌹','🌸'];
 pos.forEach((p,i)=>{const b=mk('button','fl',em[i]);b.style.left=p[0]+'px';b.style.top=p[1]+'px';b.type='button';
   b.onclick=()=>{document.querySelectorAll('.fl').forEach(x=>x.classList.remove('sel'));b.classList.add('sel');$('#q').textContent='“'+C.bouquet[i]+'”';if(i%2)confetti()};$('#bq').append(b)});
 
